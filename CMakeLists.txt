@@ -8,6 +8,7 @@ find_package(builtin_interfaces REQUIRED)
 rosidl_generate_interfaces(${PROJECT_NAME}
   "srv/SetPose.srv"
   "srv/SetParam.srv"
+  "srv/SetMode.srv"
   DEPENDENCIES std_msgs builtin_interfaces
 )
 
